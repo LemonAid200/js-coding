@@ -9,9 +9,10 @@ const color = document.querySelector(".color")
 
 
  button.addEventListener("click", ()=>{
-    let new_color = getRandomColor()
+    for (let i =0; i<100; i++)
+    new_color = getRandomColor()
     color.textContent = new_color
-    document.body.style.backgroundColor = new_color
+    document.body.style.backgroundColor = new_color    
  })
 
  function getRandomColor(){
