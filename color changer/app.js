@@ -10,7 +10,7 @@ diskoFlag = true
  const color = document.querySelector(".color")
 
 
- function setRanddomBackground(){
+ function setRandomBackground(){
    new_color = getRandomColor()
    color.textContent = new_color
    document.body.style.backgroundColor = new_color
@@ -27,13 +27,14 @@ diskoFlag = true
 
 
  colorButton.addEventListener("click", () => {
-    setRanddomBackground()
-    clearInterval(colorChanging)      
+    setRandomBackground()
+    clearInterval(colorChanging)
+    diskoFlag = true    
  })
 
  dickoButton.addEventListener("click", () => {
     if (diskoFlag){
-       colorChanging = setInterval(setRanddomBackground, 250)
+       colorChanging = setInterval(setRandomBackground, 250)
        diskoFlag = false
     }
     else{       
