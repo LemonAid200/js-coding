@@ -13,7 +13,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container h2{
+.container h2 {
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
@@ -26,11 +26,11 @@ body {
     text-align: center;
 }
 
-.color{
+.color {
     color: #49a6e9
 }
 
-.btn{
+.btn {
     background-color: transparent;
     padding: 8px;
     border: 2px solid #222;
@@ -48,7 +48,7 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-.music{
+.music {
     background-color: purple;
     border-radius: 20%;
     margin-bottom: 300px;
