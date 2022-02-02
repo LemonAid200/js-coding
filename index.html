@@ -9,16 +9,19 @@
 </head>
 <body>
     <div>
-        <button class="btn" onclick="go_to_color_changer()">Color changer</button>
-        <button class="btn">Timer</button>
-        <!-- <button class="btn">One more page</button> -->
+        <button class="btn" onclick="goToColorChanger()">Color changer</button>
+        <button class="btn" onclick="notWorkingAlert()">Timer</button>
+        <button class="btn" onclick="notWorkingAlert()">One more page</button>
     </div>
     
 
     <script>
-        function go_to_color_changer(){
-            console.log("button was pressed")
+        function goToColorChanger(){
             document.location.href = "color changer/color changer.html"
+        }
+
+        function notWorkingAlert(){
+            alert("Sorry this button doesnt work yet! \n Im working on it.")
         }
     </script>
 </body>
