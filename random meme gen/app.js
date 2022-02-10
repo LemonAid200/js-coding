@@ -69,3 +69,5 @@ button.addEventListener("click", () => {
     fetchHandler();
   }
 });
+
+fetchHandler()
