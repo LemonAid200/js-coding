@@ -1,10 +1,14 @@
 const button = document.querySelector(".btn")
 const image = document.querySelector(".img")
-
 const img = document.querySelector(".card")
-let after = ''
-// url = "https://reddit-meme-api.herokuapp.com"
 
+
+// In this comments i keep my tries of using reddits api, it kept returning an error "body is null" and coudn't parse it with json()
+// 
+// let after = ''
+// url = "https://reddit-meme-api.herokuapp.com"
+// 
+// 
 // async function fetchHandler() {
 //     try {
 //         url = "https://www.reddit.com/r/memes.json?after=${" + after + "}"
@@ -18,12 +22,12 @@ let after = ''
 //                 for (let index = 0; index < body.data.children.length; index++) {
 //                     if (body.data.children[index].data.post_hint == 'image') {
 //                         image.src = "https://i.redd.it/aq3cxdu2kvg81.jpg"
-
+// 
 //                         return
 //                     }
 //                 }
 //             })
-
+// 
 //     } catch (error) {
 //         console.log(error)
 //     }
@@ -42,8 +46,6 @@ let after = ''
 //     try {
 //         fetch(url, {mode: "no-cors"})
 //         .then(response => console.log(response.body))
-
-
 //       } catch (error) {
 //         console.log(error);
 //       }
